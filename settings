@@ -1,0 +1,23 @@
+{
+"smsc":
+    {
+        "http":"https",
+        "url":"://smsc.ru/sys",
+        "script":"send.php",
+        "login":"login",
+        "password":"psw",
+        "phone":"phones",
+        "message":"mes",
+        
+        "parametrs":{
+        "fmt":"2"}
+    },
+
+"sms_traffic":
+    {
+    "login":"lg",
+        "password":"psw",
+        "phone":"phones",
+        "msg":"msg"
+    }    
+}
