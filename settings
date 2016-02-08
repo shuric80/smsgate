@@ -1,23 +1,25 @@
 {
 "smsc":
     {
-        "http":"https",
-        "url":"://smsc.ru/sys",
-        "script":"send.php",
-        "login":"login",
-        "password":"psw",
-        "phone":"phones",
-        "message":"mes",
-        
-        "parametrs":{
-        "fmt":"2"}
+        "URL":"https://smsc.ru/some-api/message",
+        "LOGIN": "login",
+        "PASSWORD":"psw",
+		"MESSAGE": "msg",
+		"PHONE_NUMBER":"phone",
+        "PARAMETRS":
+		{
+		"test":"hello"
+		}
     },
 
 "sms_traffic":
     {
-    "login":"lg",
-        "password":"psw",
-        "phone":"phones",
-        "msg":"msg"
-    }    
+	 "URL":"http://smstraffic.ru/super-api/message",
+        "LOGIN":"login",
+        "PASSWORD":"psw",
+        "PARAMETRS":
+		{
+		"test":"hello"
+		}
+   }        
 }
